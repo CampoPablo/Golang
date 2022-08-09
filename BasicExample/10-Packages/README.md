@@ -1,4 +1,4 @@
-#Package
+# Package
 
 A package is a collection of files which declare constants, types, variables and functions belonging to the package.
 
