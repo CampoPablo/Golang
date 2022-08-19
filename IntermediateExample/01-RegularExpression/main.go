@@ -12,7 +12,6 @@ import (
 )
 
 func main() {
-
 	exampleMatch()
 	fmt.Println(strings.Repeat("-", 50))
 	exampleCompile()
@@ -55,7 +54,6 @@ func exampleReplaceAllString() {
 	body, err := ioutil.ReadAll(resp.Body)
 
 	if err != nil {
-
 		log.Fatal(err)
 	}
 
@@ -85,7 +83,6 @@ func exampleGroup() {
 		for i := range parts {
 			fmt.Println(parts[i])
 		}
-
 	}
 }
 
